@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px 0px;
+    color: blue;
+    font-size: 37px;
+}
+body{
+    background-color: aquamarine;
+}
+img{
+    border-radius: 50%;
+    box-shadow: 10px 0 15px black;    
+}
+img:hover{
+    transform: scale(1.2);
+    margin-top: 10px;    
+}

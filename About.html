@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <style>
+        body{
+            background: #1B1464;
+        }
+        .container{
+            display:flex;
+            gap: 20px;
+        }
+        img{
+            width: 300px;
+            border: 2px solid rgb(247, 179, 90);
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px burlywood;
+            margin: 50px;
+        }
+        .left{
+
+        }
+        h1{
+            /* text-align: center; */
+            color: white;
+            
+            font-size: 50px;
+        }
+        h2{
+            color: #D980FA;
+        }
+      p{
+        color: white;
+      }
+      span{
+        color: #D980FA;
+      }
+    </style>
+</head>
+<body>
+    <!-- <h1>About myself</h1> -->
+   <div class="container">
+    <div class="left"> <h1>Hii I'm <span>Abhijit Dutta </span></h1></h1>
+        <h2><span id="element"></span></h2>
+        <p>I am a BSC computer science student with a strong passion for coding.My journey in the field of computer science has equipped me with a solid foundation in various programming languages and technologies.As a dedicated and hard working individual,I a cosistently strive to enhance my skills and stay updated with the lasted devolopments in the tech world.
+    
+          <br><br>  In addition to my academic pursuits .I am an accomplished Web devoloper. I have devoloper. I have devolop several web applicastion. Utilizing My knowledge of front -end and backend technologies to create user - frendly and efficient solutions . My Project are publish on My GITHUB account, where I regularly contribute and collabrate with other devolopers. This platfrom has been instrument in honing my skills and ganing valuable feedback from the devoloper community.</p></div>
+    <div class="right">
+        <img src="propic.jpeg" alt="" >
+    </div>
+   </div>
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Web Devoloper</i> Web Designer', 'Computer Science Student.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
